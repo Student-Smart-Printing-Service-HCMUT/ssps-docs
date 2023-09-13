@@ -1,4 +1,4 @@
-= Cài đặt
+= Requirement elicitation
 
 Dưới đây là hướng dẫn cài đặt Typst nếu bạn sử dụng Typst
 trên máy tính cá nhân thay vì trên #link("https://typst.app", [web app]).
