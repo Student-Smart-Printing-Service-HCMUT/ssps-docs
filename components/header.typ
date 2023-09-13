@@ -14,7 +14,7 @@
     return
   }
 
-  #box(image("/components/logo.png", height: 2.5em))
+  #box(image("../contents/images/logo.png", height: 2.5em))
   #h(0.5cm)
   #box[
     Trường Đại học Bách Khoa - ĐHQG-HCM \

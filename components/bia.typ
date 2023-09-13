@@ -13,7 +13,7 @@
 
 #v(2fr)
 
-#align(center, image("/components/logo.png", height: 5cm))
+#align(center, image("../contents/images/logo.png", height: 5cm))
 
 #v(2fr)
 

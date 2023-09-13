@@ -27,8 +27,11 @@
   it
   v(.5em)
 }
-
+#set par(first-line-indent: 1em, justify: true)
 #import "/components/latex.typ"
 #show "LaTeX": latex.LaTeX
 
-#{ include "contents/00.typ" }
+
+
+#{ include "./contents/index.typ" }
+#bibliography("references.bib")
