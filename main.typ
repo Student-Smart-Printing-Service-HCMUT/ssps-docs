@@ -34,4 +34,4 @@
 
 
 #{ include "./contents/index.typ" }
-#bibliography("references.bib")
+#{ include "components/references.typ"}
