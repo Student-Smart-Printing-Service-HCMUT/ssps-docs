@@ -15,3 +15,5 @@
 #pagebreak()
 #{ include "./categories/task1/1.conclude.typ" }
 #pagebreak()
+#{ include "./categories/task2/2.conclude.typ" }
+#pagebreak()
