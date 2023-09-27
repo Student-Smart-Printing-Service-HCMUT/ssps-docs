@@ -11,7 +11,7 @@ _Draw a use case diagram for whole System_
 #pagebreak()
 === _Use case Order Printing Job_
 
-#figure(caption: [Use Case Diagram for Order Printing Jobm],
+#figure(caption: [Use Case Diagram for Order Printing Job],
     image("../../images/UC_Order_print.png")
   )
 
@@ -46,3 +46,6 @@ _Draw a use case diagram for whole System_
     [Includes], [Upload Document, Preview Document, Remove Document, Specify Printing Option, Checkout, Confirm Order, Set Location, Payment, Schedule Print.]
 
 )
+#figure(caption: [Order Printing Job scenario], table()
+)
+
