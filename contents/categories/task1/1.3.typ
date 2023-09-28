@@ -5,16 +5,21 @@
 _Draw a use case diagram for whole System_
 
 #figure(caption: [Use Case Diagram for the Whole System],
-    image("../../images/UC_wholesystem.png")
+    image("../../images/UC_Whole_System.png")
   )
 
 #pagebreak()
 === _Use case Order Printing Job_
 
 #figure(caption: [Use Case Diagram for Order Printing Job],
-    image("../../images/UC_Order_print.png")
+    image("../../images/UC_Order_Print.png")
   )
 
+#linebreak()
+=== _Use case Login Service_
+#figure(caption: [Use Case Diagram for Login Service],
+  image("../../images/UC_Login_Service.png")
+)
 *Order Printing Jobt scenario*
 
 #table(
