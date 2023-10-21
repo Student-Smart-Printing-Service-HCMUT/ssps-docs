@@ -15,12 +15,7 @@ _Draw a use case diagram for whole System_
     image("../../images/UC_Order_Print.png")
   )
 
-#linebreak()
-=== _Use case Login Service_
-#figure(caption: [Use Case Diagram for Login Service],
-  image("../../images/UC_Login_Service.png")
-)
-*Order Printing Jobt scenario*
+*Order Printing Job scenario*
 
 #table(
     columns: (auto, auto),
@@ -54,3 +49,8 @@ _Draw a use case diagram for whole System_
 #figure(caption: [Order Printing Job scenario], table()
 )
 
+#linebreak()
+=== _Use case Login Service_
+#figure(caption: [Use Case Diagram for Login Service],
+  image("../../images/UC_Login_Service.png")
+)

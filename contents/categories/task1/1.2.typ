@@ -37,10 +37,12 @@ Người quản lý máy in (trường hợp flow truyền thống):
 === _Yêu cầu phi chức năng (non-functional requirements)_
 #h(1cm)Yêu cầu phi chức năng liên quan đến việc xác định những ràng buộc trong dịch vụ hoặc chức năng có ảnh hưởng đến hệ thống như ràng buộc về thời gian, quá trình phát triển, hiệu suất và thường áp dụng tới toàn bộ hệ thống hơn là những đặc điểm hay dịch vụ riêng lẻ. Đối với SSPS, chúng ta có những yêu cầu phi chức năng như sau:
 #block(inset: (left: 1cm))[
-    - Sự hiệu quả (Efficiency): Trang web/app đảm bảo đáp ứng yêu cầu in ấn của sinh viên, cung cấp thông tin về tình trạng sử dụng trang thiết bị, chi phí sử dụng và tài khoản cá nhân để người dùng chủ động sắp xếp, đưa ra quyết định phù hợp nhất.
-    - Tính khả dụng (Availability): Trang web/app hoạt động 24/7 để phục vụ yêu cầu đặt in và kiểm soát quá trình in ấn của các máy in.
+    - Sự hiệu quả (Efficiency): Trang web/app đảm bảo đáp ứng yêu cầu in ấn của sinh viên với nhiều loại tài liệu khác nhau như giáo trình, đề thi, nghiên cứu khoa học,... (hỗ trợ in màu). Cung cấp thông tin về tình trạng sử dụng trang thiết bị, chi phí sử dụng và tài khoản cá nhân để người dùng chủ động sắp xếp, đưa ra quyết định phù hợp nhất.
+    - Tính khả dụng (Availability): Trang web/app hoạt động tốt và an toàn 24/7 để phục vụ yêu cầu đặt in và kiểm soát quá trình in ấn của các máy in.
     - Độ tin cậy (Reliability): Hệ thống phải có cơ chế sao lưu dữ liệu định kỳ hoặc khi xuất hiện lỗi kỹ thuật, có khả năng thống kê, ghi nhận lại lỗi phát sinh trong quá trình hoạt động. Tất cả tác vụ phải được hoàn thành theo yêu cầu đặt in của người dùng, hoặc có cơ chế thông báo và hướng dẫn xử lý rõ ràng nếu không thành công.
-    - Tính dễ sử dụng (Ease Of Use):, cung cấp hướng dẫn sử dụng, xử lý các tình huống phát sinh và có thể thuận tiện thao tác chỉ với sự hướng dẫn/điều hướng và tài liệu của ứng dụng. Người dùng không cần thiết lập thông số kỹ thuật để kết nối với máy in.
+    - Tính dễ sử dụng (Ease Of Use): Cung cấp hướng dẫn sử dụng bằng một bản hướng dẫn, xử lý các tình huống phát sinh và có thể thuận tiện thao tác chỉ với sự hướng dẫn/điều hướng và tài liệu của ứng dụng. Người dùng không cần thiết lập thông số kỹ thuật để kết nối với máy in, chỉ cần khoảng từ 5-10 phút đọc hướng dẫn để có thể sử dụng dịch vụ một cách mượt mà nhất
+    - Thời gian phản hồi nhanh chóng (Fast response): Đảm bào thời gian từ lúc người dùng tải tài liệu lên cho đến khi hệ thống xác nhận và đưa vào hàng đợi từ 1-2(s) cho trường hợp chậm nhất.
+    - Giới hạn kiểu tài liệu (Limited files types): Hệ thống chỉ chấp nhận những file có độ lớn tối đa là 100MB và chỉ chấp nhận tài liệu dưới dạng PDF, JPEG, PNG, DOCX.
 ]
 
 

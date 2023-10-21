@@ -1,17 +1,35 @@
 = Requirement elicitation
 
-== Giới thiệu về bối cảnh miền của hệ thống phát triển dịch vụ in ấn thông minh. Ai là những bên liên quan và nhu cầu hiện tại của họ là gì? Lợi ích SPSS mang lại cho từng bên liên quan
+== Giới thiệu về bối cảnh miền của hệ thống phát triển dịch vụ in ấn thông minh. Những bên liên quan, nhu cầu hiện tại và lợi ích SPSS mang lại cho từng bên liên quan
 
 === _Giới thiệu về bối cảnh miền của dịch vụ in ấn thông minh cho sinh viên đại học Bách Khoa thành phố Hồ Chí Minh_
-Bối cảnh miền của một hệ thống bao gồm miền vấn đề (problem domain) và miền ứng dụng (application domain) . Dịch vụ in ấn thông minh (SPSS) là một dịch vụ đang được phát triển bởi trường đại học Bách Khoa Thành phố Hồ Chí Minh nhằm cung cấp cho sinh viên một môi trường in ấn tiện lợi, an toàn và nhanh chóng nhất. Mọi sinh viên đều được khuyến khích sử dụng dịch vụ này nếu bản thân sinh viên gặp phải những vấn đề khó khăn khi sử dụng dịch vụ in truyền thống tại trường như sau (problem domain):
+Bối cảnh miền của một hệ thống bao gồm miền vấn đề (problem domain) và miền ứng dụng (application domain) . Dịch vụ in ấn thông minh (SPSS) là một hệ thống được phát triển bởi trường Đại học Bách Khoa Thành phố Hồ Chí Minh nhằm cung cấp cho sinh viên một dịch vụ in ấn tiện lợi, an toàn và nhanh chóng nhất với số lượng nhỏ. Dịch vụ có thể sẽ được cung cấp dưới hai dạng: tự phục vụ và truyền thống. Mọi sinh viên đều được khuyến khích sử dụng dịch vụ này nếu bản thân sinh viên gặp phải những vấn đề khó khăn khi sử dụng dịch vụ in truyền thống tại trường như sau (problem domain):
 #block(inset:(left:1cm))[
     - Không chủ động thời gian vì phụ thuộc vào các tiệm in.
     - Không tận dụng được thời gian di chuyển đến tiệm in.
     - Vấn đề bảo mật thông tin khi sử dụng dịch vụ truyền thống như virus.
     - Không bảo đảm về phương thức thanh toán phù hợp.
     - Giá thành cao hơn so với dịch vụ in ấn truyền thông ngoài trường.
-    - Miền ứng dụng (application domain) dùng để chỉ phạm vi chức năng hoặc lĩnh vực cụ thể mà hệ thống được thiết kế để yêu cầu phục vụ. Đối với SSPS, hệ thống được phát triển và duy trì trong các lĩnh vực như giáo dục, kinh tế. Cụ thể SSPS được phát triển trên các nền tảng web based và app based với vai trò chính là đáp ứng nhu cầu in ấn của sinh viên trong trường Đại học Bách Khoa.
 ]
+
+Miền ứng dụng (application domain) dùng để chỉ phạm vi chức năng hoặc lĩnh vực cụ thể mà hệ thống được thiết kế để yêu cầu phục vụ. Đối với SSPS, chúng ta có phạm vi chức năng và lĩnh vực như sau:
+#block(inset:(left:1cm))[
+    - Phạm vi lĩnh vực
+    #block(inset:(left:1.2cm))[
+        \u{2218} Giáo dục: Hỗ trợ in ấn tài liệu cho sinh viên, giảng viên.
+        #linebreak()
+        \u{2218} Kinh doanh: Những người phát triển hệ thống kiếm lợi từ việc cung cấp dịch vụ.
+    ]
+    - Phạm vi chức năng
+    #block(inset:(left:1.2cm))[
+        \u{2218} In ấn tài liệu của sinh viên giảng viên đa dạng từ tài liệu học tập, giáo trình, đề thi, nghiêm cứu khoa học, bảng điểm, chứng chỉ,...
+        #linebreak()
+        \u{2218} Đóng gói và bao bì an toàn, bảo mật tài liệu.
+        #linebreak()
+        \u{2218} Giao hàng và chuyển phát với tốc độ nhanh (không băt buộc).
+    ]
+]
+
 
 ===  _Những bên liên quan và nhu cầu hiện tại_
 Stakeholder - một thuật ngữ dùng để chỉ bất kỳ người hay tổ chức mà bị ảnh hưởng bởi hệ thống và có lợi ích chính đáng. Hệ thống dịch vụ in ấn thông minh của trường (SSPS) gồm các bên liên quan sau:
