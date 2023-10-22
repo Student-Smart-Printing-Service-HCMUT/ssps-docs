@@ -1,4 +1,4 @@
-
+#pagebreak()
 ==  Sequence diagram 
 
 _Draw an Sequence diagram to capture the business process between systems and the stakeholders in Task
