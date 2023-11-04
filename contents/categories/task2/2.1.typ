@@ -10,6 +10,24 @@ Assignment module_
     image("../../images/Activity_Diagram.png")
   )
 
+#pagebreak()
+*Activity Diagram for Upload Document*
+#figure(caption: [Activity diagram for Upload File],
+    image("../../images/ActDia_UploadFile.png")
+  )
+
+#pagebreak()
+*Activity Diagram for Page Setting*
+#figure(caption: [Activity diagram for Page Setting],
+    image("../../images/ActDia_PageSetting.png")
+  )
+#pagebreak()
+*Activity Diagram for Confirm Order*
+#figure(caption: [Activity diagram for Confirm Order],
+    image("../../images/ActDia_ConfirmOrder.png")
+  )
+
+
 *Mô tả:*
 #block(inset:(left:1cm))[
   - Sau khi đăng nhập, sinh viên sẽ ở trang Home page.

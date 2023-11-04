@@ -29,15 +29,15 @@ _Draw a use case diagram for whole System_
     [Trigger], [Sinh viên nhấn nút Order print và chọn tài liệu cần in.],
     [Normal Flow], 
        [ 1. Sinh viên nhấn nút “Order printing job”.\
-         2. Sinh viên tải (upload file) tiều liệu cần in lên hệ thống.\
+         2. Sinh viên tải (upload file) tài liệu cần in lên hệ thống.\
          3. Sinh viên xem lại tài liệu (previews the document) và xác nhận (confirm) tài liệu là chính xác.\
-         4. Sinh viên có thể tùy chỉnh các thiết lập cho tài liệu in (print setting) (e.g., Number of copies, Option Layout, Option Pages, Option Pages side,etc.).\
+         4. Sau đó, sinh viên có thể tùy chỉnh các thiết lập cho tài liệu in (print setting) (e.g., Number of copies, Option Layout, Option Pages, Option Pages side, etc.).\
          5. Sinh viên có thể tùy chỉnh thêm các thiết lập nâng cao (e.g., Page size, Scale, Pages per sheet, etc.).\
-         6. Sinh viên đặt vị trí cho các tài liệu in (print job location).\
-         7. Sinh viên thiết lập thời gian nhận tà liệu in sau khi hoàn tất. \
-         8. Sinh viên tiến hành quá trình thanh toán.\
-         9. Sinh viên xác nhận  (confirm) thông tin đơn hàng chi tiết và tiến hành thanh toán.\
-        10. Sinh viên lựa chọn phương thức thanh toán bằng coin. \  
+         6. Chọn địa điểm cho các tài liệu in (print job location).\
+         7. Thiết lập thời gian nhận tà liệu in sau khi hoàn tất. \
+         8. Tiến hành quá trình thanh toán.\
+         9. Sinh viên xác nhận (confirm) thông tin đơn hàng chi tiết và tiến hành thanh toán.\
+        10. Lựa chọn phương thức thanh toán bằng coin. \  
         10a. Nếu không đủ số lượng coin, sinh viên cần tiến hành nạp thêm coin và quay lại bước 10.\
         11. Hệ thống xác nhận thanh toán thành công, hệ thống đặt lệnh in vào hàng đợi in và thông báo cho sinh viên biết. \
     ],
