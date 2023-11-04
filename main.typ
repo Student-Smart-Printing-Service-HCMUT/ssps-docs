@@ -27,7 +27,7 @@
   it
   v(.5em)
 }
-#set par(first-line-indent: 1em, justify: true)
+#set par(justify: true)
 #import "/components/latex.typ"
 #show "LaTeX": latex.LaTeX
 
