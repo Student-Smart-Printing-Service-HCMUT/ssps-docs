@@ -4,8 +4,10 @@
 _Draw a class diagram of the printer order system.
 _\
 
-#figure(caption: "Class Diagram of Upload file",
-    image("../../images/Class_Diagram.png")
+*Frontend Class diagram*: Các class trong sơ đồ UML class diagram đều sử dụng chung 1 class
+là DataService. Class DataService có nhiệm vụ gọi các API cung cấp bởi phía server.
+#figure(caption: "Frontend Class diagram",
+    image("../../images/ClassDia_FE.png") 
   )
 
 *Mô tả*
@@ -17,14 +19,23 @@ _\
     - Đối tượng *Location* bao gồm các thuộc tính: id, campus, building, room.
     - Đối tượng *Printer* bao gồm các thuộc tính: id, name, model, location(Location).
     - Đối tượng *PrintingRequest* bao gồm các thuộc tính: id, List<File>, filename, num_of_copies, page_size, page_print(List<int>) và phương thức AddOrder(file, num_of_copies), DeleteOrder(file, num_of_copies), CalculateMoney().
-    - *Student* có thể tương tác với *MainPageView*. *MainPageView* bao gồm đối tượng *MainPageModel*, *MainPageController*, các thuộc tính student: Student, totalMoney, orderProcess: List<Order>. Các phương thức của *MainPageView* bao gồm: ShowOrderListProcess(order:List<Order>), Uploadfile() và Refresh().
-    - *MainPageModel* bao gồm các thuộc tính: student: Student, order: Order, totalMoney và các phương thức: GetOrderListProcess(student.id), UploadView().
-    - *MainPageController* bao gồm các phương thức: UploadOrderProcess(student.id, order.id), GetFileUpload(), UpdateViewUploadfile().
+    - *Student* có thể tương tác với *MainPageView*. *MainPageView* bao gồm  các thuộc tính student: Student, totalMoney, orderProcess: List<Order>. Các phương thức của *MainPageView* bao gồm: ShowOrderListProcess(order:List<Order>), showButtonOrderPrint(), Uploadfile() và Refresh().
 
-    - Sau khi *Student* upload file, *MainPageView* sẽ chuyển hướng đến *OrderPrintingView* để hiển thị thông tin về file vừa upload và tùy chọn các thông số in ấn. *OrderPrintingView* bao gồm các thuộc tính: *OrderPrintingModel*, *OrderPrintingController*, selectedFile: List<File> và các phương thức: ShowFileUpload(selectedFile: List<File>), ShowChooseNumOfCopies(selectedFile: List<File>), ShowChooseOptinal(selectedFile: List<File>), ShowTotalMoney(), ChoosePrinterandLocation(), ShowConfirmOrder(), ShowPatmentMethod().
-    - *OrderPrintingModel* bao gồm các thuộc tính: waitingPrintList và các phương thức: WritePrintingRequest(filename, status, printer, location, totalMoney).
-    - *OrderPrintingController* có *PaymentController* và các phương thức: GetSelectRequest(), SendOrdertoManager(), GiveMoneyBack(money).
+    - Sau khi *Student* upload file, *MainPageView* sẽ chuyển hướng đến *OrderPrintingView* để hiển thị thông tin về file vừa upload và tùy chọn các thông số in ấn. *OrderPrintingView* bao gồm các thuộc tính:  selectedFile: List<File>, selectPrinter: List<Printer>, selectLocation: List<Location>, paymentController: PaymentController, waitingPrintList< 1..unordered> và các phương thức: ShowFileUpload(selectedFile: List<File>), ShowChooseNumOfCopies(selectedFile: List<File>), ShowPreviewDocument(selectFile: File), ShowChooseOptinal(selectedFile: List<File>), ShowTotalMoney(), ChoosePrinterandLocation(), ShowConfirmOrder(), ShowPatmentMethod().
 
 ]
+*Class Diagram cho Business Logic Layer* Tương tự vai trò của class DataService bên phía
+presentation, class Router phía business logic đóng vai trò tiếp nhận và điều hướng các lời gọi API từ phía presentation layer tới các logic xử lý trong hệ thống. Ngoài Router, các lớp đều sử dụng class Database để thực hiện thao tác dữ liệu trực tiếp từ cloud database.
+#figure(caption: "Backend Class diagram",
+    image("../../images/ClassDia_BE.png") 
+  )
 
+*Kết nối giữa frontend và backend*
 
+Class DataService là đại diện bên frontend, chuyên gửi các request và nhận dữ liệu trả về từ backend.
+Tương tự, class Router là đại diện bên backend, chuyên tiếp nhận các request từ frontend, điều hướng
+tới các logic xử lý nghiệp vụ, và trả về dữ liệu tương ứng với request nhận được.
+
+#figure(caption: "FE_BE Connect diagram",
+    image("../../images/ClassDia_Connect.png", width: 40%, height: 30%) 
+  )
