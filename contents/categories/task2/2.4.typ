@@ -40,17 +40,17 @@ Các thành phần chính của trang chủ hệ thống (Homepage):
         *Header*: biểu diễn những thông tin chính của trang chủ (thành phần cố định trong các trang)
         #block(inset:(left:1cm))[
             - Home: Điều hướng người dùng về trang chủ.
-            - My order: Điều hướng người dùng đến trang theo dõi danh sách đơn hàng (chi tiết ở mục *2.4.*).
-            - Payment: Điều hướng đến trang thanh toán đơn hàng (chi tiết ở mục *2.4.*).
+            - My order: Điều hướng người dùng đến trang theo dõi danh sách đơn hàng đã được lưu trên hệ thống (chi tiết ở mục *2.4.7*).
+            - Payment: Điều hướng đến trang thanh toán đơn hàng (chi tiết ở mục *2.4.6*).
             - Location: Điều hướng đến trang vị trí máy in trong khuôn viên của trường (chi tiết ở mục *2.4.*).
             - Coin: Hiển thị số coin hiện tại của người dùng.
         ]
     ],
     enum.item(2)[
-        *My Order*: Nơi người dùng có thể xem lại thông tin của các đơn đặt hàng của mình về tình trạng, tên file, số lượng,... Khi nhấn vào *See more*, người dùng sẽ được điều hướng đến trang danh sách đơn hàng (chi tiết ở mục *2.4.*)
+        *My Order*: Nơi người dùng có thể xem lại thông tin của các đơn đặt hàng của mình về tình trạng, tên file, số lượng,... Khi nhấn vào *See more*, người dùng sẽ được điều hướng đến trang danh sách đơn hàng (chi tiết ở mục *2.4.7*)
     ],
     enum.item(3)[
-        *Order Printing*: Khi sinh viên nhấn vào nút này, người dùng được trả về một box file (nơi giúp người dùng có thể tải file lên hệ thống và sau đó được định hướng sang trang tải tài liệu, chi tiết ở mục *2.4.*).
+        *Order Printing*: Khi sinh viên nhấn vào nút này, người dùng được trả về một box file (nơi giúp người dùng có thể tải file lên hệ thống và sau đó được định hướng sang trang tải tài liệu, chi tiết ở mục *2.4.3*).
         #figure(caption: "Giao diện Box file",
             image("../../images/UI_upload_mobile.png", fit: "contain", width: 50%))
     ]
@@ -81,7 +81,7 @@ Các thành phần chính trong trang tài file lên hệ thống:
                 image("../../images/Upload_page_edit.png", fit: "contain", width: 70%))
     ],
     enum.item(3)[
-        *Nút lưu trữ*: Người dùng muốn lưu trữ file upload vào danh sách order sau khi điều chỉnh và xác nhận các thông số như layout, pages của file đó. Sau đó, người dùng sẽ được điều hướng sang trang danh sách trong hàng đợi. (chi tiết ở mục *2.4.*). 
+        *Nút lưu trữ*: Người dùng muốn lưu trữ file upload vào danh sách order sau khi điều chỉnh và xác nhận các thông số như layout, pages của file đó. Sau đó, người dùng sẽ được điều hướng sang trang danh sách trong hàng đợi. (chi tiết ở mục *2.4.4*). 
     ]
 )
 #pagebreak()
@@ -107,7 +107,7 @@ Các thành phần chính trong trang danh sách đang trong hàng đợi:
         *Chi tiết giá cả của danh sách đơn hàng*: Thông tin về tổng giá tạm thời của danh sách đơn hàng bao gồm giá cứng và giá sử dụng dịch vụ.
     ],
     enum.item(3)[
-        *Nút đặt hàng*: Người dùng xác nhận danh sách đơn hàng mình đã upload và chuẩn bị được điều hướng sang trang xác nhận đơn hàng (chi tiết ở mục *2.4.*).
+        *Nút đặt hàng*: Người dùng xác nhận danh sách đơn hàng mình đã upload và chuẩn bị được điều hướng sang trang xác nhận đơn hàng (chi tiết ở mục *2.4.5*).
     ]
 )
 #pagebreak()
@@ -134,7 +134,7 @@ Các thành phần chính trong trang xác nhận danh sách đơn hàng:
         *Chi tiết giá cả của danh sách đơn hàng*:
         #block(inset:(left:1cm))[
             - Thông tin vị trí người dùng sẽ tiến hành lấy đơn hàng tại khuôn viên của trường.
-            - Xác nhận kiểu thanh toán cho danh sách đơn hàng và hiển thị tình trạng có thanh toán được hay không (chi tiết ở mục *2.4.*).
+            - Xác nhận kiểu thanh toán cho danh sách đơn hàng và hiển thị tình trạng có thanh toán được hay không (chi tiết ở mục *2.4.6*).
             - Chi tiết gia cả của danh sách đơn hàng: Tổng giá bao gồm giá cứng và giá sử dụng dịch vụ.
         ]
     ],
