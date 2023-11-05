@@ -1,6 +1,7 @@
 
 == Component diagram
-*Mô tả Component diagram của module Request Printing Order.*
+#figure(caption:"Component diagram", image("../../images/Component_diagram.png", fit: "contain"))
+_Mô tả Component diagram của module Request Printing Order._
 #block(inset:(left:1cm))[
   - Component diagram bao gồm các component: GUI, BE, PostgreSQL, MinIO, 3rd Party Payment Service.
   - GUI: Đây là giao diện mà người dùng tương tác với hệ thống. Component này giao tiếp qua API với các component con của BE để người dùng thực hiện tải tài liệu (Upload Service), mua coin (Purchase Coin), xác nhận đơn in (Checkout) và thực hiện in (Handle Printer)
