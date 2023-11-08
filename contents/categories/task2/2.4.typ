@@ -4,7 +4,8 @@
 _ MVP 1 - UI for desktop-view central dashboard for Student to Order Print_
 
 Ở Task này, nhóm đã sử dụng Figma để xây dựng giao diện cho các thao tác cơ bản của
-Student để Order Print. Cụ thể phần hiện thực Figma ở link sau:
+Student để Order Print.\
+Cụ thể phần hiện thực Figma ở link sau:
 https://www.figma.com/file/7eKhLKrVARC1YBJPBpM6dO/%5BDraft%5D-Hi-fi-design?type=design&node-id=0-1&mode=design&t=bq6c1bMcHuCwIvk0-0
 
 === Trang đăng nhập (Login Page)
@@ -55,7 +56,7 @@ Các thành phần chính của trang chủ hệ thống (Homepage):
             image("../../images/UI_upload_mobile.png", fit: "contain", width: 50%))
     ]
 )
-#pagebreak()
+
 
 === Trang tải file lên hệ thống
 
@@ -84,7 +85,7 @@ Các thành phần chính trong trang tài file lên hệ thống:
         *Nút lưu trữ*: Người dùng muốn lưu trữ file upload vào danh sách order sau khi điều chỉnh và xác nhận các thông số như layout, pages của file đó. Sau đó, người dùng sẽ được điều hướng sang trang danh sách trong hàng đợi. (chi tiết ở mục *2.4.4*). 
     ]
 )
-#pagebreak()
+
 
 === Trang danh sách đang trong hàng đợi
 - Để có thể truy cập vào trang này, người dùng đã upload file lên và lưu trữ vào danh sách.
@@ -110,7 +111,7 @@ Các thành phần chính trong trang danh sách đang trong hàng đợi:
         *Nút đặt hàng*: Người dùng xác nhận danh sách đơn hàng mình đã upload và chuẩn bị được điều hướng sang trang xác nhận đơn hàng (chi tiết ở mục *2.4.5*).
     ]
 )
-#pagebreak()
+
 
 === Trang xác nhận danh sách đơn hàng
 

@@ -17,7 +17,6 @@ Assignment module_\
     + Nếu file được lưu không thành công, Object FileStorage sẽ trả về kết quả thất bại cho Object FileRouter và các Object còn lại lần lượt trả về kết quả thất bại.
   - Nếu model được tạo thành công, Object FileMOdel sẽ gọi method Save(File) của Object FileDatabase để xử lý.
   - Nếu model được tạo không thành công, Object FileModel sẽ trả về kết quả thất bại cho Object FileHandler và các Object còn lại lần lượt trả về kết quả thất bại.
-
 ]
 #figure(caption: "Sequence diagram of Preview and Remove file",
     image("../../images/Preview_Sequence_Diagram.png")
@@ -52,7 +51,6 @@ Assignment module_\
   - Object FileHandler sẽ trả về kết quả thành công cho Object FileRouter.
   - Object FileRouter sẽ trả về kết quả thành công cho Object PrintingOrderPage.
   - Object PrintingOrderPage sẽ hiển thị thông báo thành công cho người dùng.
-
 ]
 #figure(caption: "Sequence diagram of Checkout",
     image("../../images/Checkout_Sequence_Diagram.png")
