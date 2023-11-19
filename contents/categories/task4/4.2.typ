@@ -1,0 +1,4 @@
+== Tài liệu, thư mục cho kho lưu trữ (repository)
+
+Ở các kho lưu trữ ở cả frontend và backend, chúng tôi đã liên tục thêm và thay đổi nội dung của tài liệu, thư mục phục vụ cho việc
+phát triển dự án như .github (việc lưu trữ thông tin của những lần thay đổi), các folder liên quan đến frontend như components,pages,... và các folder liên quan backend như prisma,... Để có thể liên tục thay đổi và cập nhật nội dung này trên kho lưu trữ chúng ta sẽ sử dụng các câu lệnh hỗ trợ bởi git như: git add, git commit, git push, pull request để có thể cập nhật tử local branch lên remote branch và giữa các remote branch với nhau.

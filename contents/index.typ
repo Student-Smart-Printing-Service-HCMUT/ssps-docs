@@ -19,4 +19,5 @@
 #{ include "./categories/task1/1.conclude.typ" }
 #{ include "./categories/task2/2.conclude.typ" }
 #{ include "./categories/task3/3.conclude.typ" }
+#{ include "./categories/task4/4.conclude.typ" }
 #pagebreak()
