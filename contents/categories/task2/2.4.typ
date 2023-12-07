@@ -170,7 +170,7 @@ Các thành phần chính của trang thanh toán:
 
 Để có thể vào trang này, người dùng đã có thể nhấn vào nút *See more* ở trang chủ hoặc *My order* trên thanh header của hệ thống.
  #figure(caption: "Giao diện trang đơn hàng có trên hệ thống",
-    image("../../images/Wallet_page.png", fit: "contain"))
+    image("../../images/ListOrder_page.png", fit: "contain"))
 Các thành phần chính của trang danh sách đơn hàng có trên hệ thống:
 #enum(
     enum.item(1)[
